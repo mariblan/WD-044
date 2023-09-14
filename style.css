@@ -197,3 +197,219 @@ hr {
   height: 100vh;
   width: 100%;
 }
+
+/* 7 page */
+.seventh-page{
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.bigtext{
+  position: absolute;
+  top: 15%;
+  left: 9%;
+  font-size: 450%;
+  letter-spacing: 2.5rem;
+  font-weight: lighter;
+
+
+}
+
+.boxsmalltext1{
+  position: absolute;
+  top: 35%;
+  left: 9%;
+  width: 15%;
+  font-size: 85%;
+  line-height: 140%;
+
+
+
+}
+
+.boxsmalltext2{
+  position: absolute;
+  top: 53%;
+  left: 9%;
+  width: 15%;
+  font-size: 85%;
+  line-height: 140%;
+
+
+}
+
+.oooo{
+  position: absolute;
+  width: 14.3%;
+  top: 77.4%;
+  left: 8%;
+
+
+
+}
+
+.percs{
+  position: absolute;
+  top: 77%;
+  left: 23.7%;
+  width: 30%;
+  font-size: 75%;
+  line-height: 250%;
+  float: left
+}
+
+.boxsmalltext3{
+  position: absolute;
+  top: 80%;
+  left: 34%;
+  width: 20%;
+  font-size: 85%;
+
+
+}
+
+.baum{
+  position: relative;
+  right:0;
+  bottom: 0;
+  left:56%;
+
+  
+}
+
+.line1 {
+  position: absolute;
+  top: 29%;
+  width: 7%;
+  top: 35.5%;
+  left: 0%;
+  height: 1px;
+  background-color: #000;
+}
+
+.line2 {
+  position: absolute;
+  top: 29%;
+  width: 7%;
+  top: 53.5%;
+  left: 0%;
+  height: 1px;
+  background-color: #000;
+}
+
+.line3 {
+  position: absolute;
+  top: 29%;
+  width: 1px;
+  top: 77%;
+  left: 4%;
+  height: 13%;
+  background-color: #000;
+}
+
+.line4 {
+  position: absolute;
+  width: 7%;
+  top: 80.5%;
+  left: 26%;
+  height: 1px;
+  background-color: #000;
+}
+
+.line5 {
+  position: absolute;
+  top: 13%;
+  width: 1px;
+  left: 58%;
+  height: 90.5%;
+  transform: rotate(11.4deg);
+  background-color: #000;
+  overflow: hidden;
+  
+  
+
+}
+
+/* 8 page */
+
+.eights-page{
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  }
+
+.bigtext2{
+  position: relative;
+  top: 16%;
+  font-size: 400%;
+  letter-spacing: 2rem;
+  text-align: center;
+}
+
+.line11 {
+  position: relative;
+  top: 10%;
+  height: 1px;
+  width: 17%;
+  left: 10%;
+  background-color: #000;
+  }
+
+.line12 {
+  position: relative;
+  width: 19%;        
+  top: 10%;
+  bottom: 0;
+  left: 70%;
+  height: 1px;
+  background-color: #000;
+}
+
+.rinesboxes123 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rinesbox {
+  width: 18%;
+  height: 25rem;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  top: 15rem;
+}
+
+.rinesbox form {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.similar {
+  background-color: hsl(230, 27%, 64%);
+}
+
+.different {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.LOREMS555{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 220%;
+  font-weight: lighter;
+  
+}
+
+.square-button {
+  width: 90%; 
+  height: 4rem;
+  font-size: 0.85rem;
+  font-weight: lighter;
+}
+
+.FONT555 {
+  font-family: ar;
+  font-weight: lighter;
+}
