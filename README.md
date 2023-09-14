@@ -20,3 +20,5 @@ Project with Rines, Bernard, Maziar, Xheni and Bishal
     /* padding: 10%; */
     width: 100%;
 }
+
+Did anyone creat any new branches? (Maziar)
