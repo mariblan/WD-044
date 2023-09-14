@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+/* body {
+  position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+display: flex;
+direction: column;
+} */
+
+.landingpage{
+ height: 100vh;
+ background-image: url(./Backgrounds/azin-javadzadeh-Ow4ijRO4ZJw-unsplash.jpg);
+ background-position: center;
+ background-size:cover;
+ background-repeat: no-repeat;
+ /* padding: 10%; */
+ width: 100%;
+}
+
+
+/* header a img{
+  width: 30%;
+  margin-left: 35%;
+} */
+.landingpage hr{
+  border: solid 5px white;
+  border-radius: 5px;
+  width: 20%;
+  height: 1%;
+}
+
+.landingpage h1{
+  padding-top: 2.5rem;
+  font-size:5rem ;
+  color: white;
+  letter-spacing: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 0em;
+}
+.landingpage h3{
+  text-align: center;
+  font-size:1em ;
+  color: white;
+  letter-spacing: 1rem;
+}
+
+.second{
+  height: 100vh;
+  background-image: url(./Backgrounds/wheat.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10%;
+  font-size: 1em;
+}
+
+/* .secondpagecontent{
+  height: 50%;
+  width: 70%;
+  position: relative;
+  bottom: 1%;
+  right: 5%;
+  left: 5%;
+  top: 20%;
+  display: flex;
+  border: solid 2px red; 
+} */
+
+.second > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: solid 5px black;
+  padding: 2%;
+}
+.second .child3{
+  border: none;
+}
+.icon{
+  width: 15%;
+  margin-bottom: 10%;
+}
+.second div p{
+  text-align: center;
+  margin-top: 10%;
+  max-width: 15em;  
+}
+
+/* fifth Page */
+
+.page-five{
+  height: 100vh;
+  background-image: url(./Backgrounds/5.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+/* .image-five {
+  background-image: url(./5.jpg);
+  background-size: cover;
+  height: 60vh;
+} */
+
+
+.column {
+   float: left;
+   width: 33.33%;
+}
+
+.page-five h1{
+   position: relative;
+   left: 70%;
+   bottom: 72%;
+   width: 5ch;
+   font: 4em sans-serif;
+   letter-spacing: 0.4em
+}
+
+.page-five p {
+   position: relative;
+   left: 70%;
+   bottom: 45%;
+   width: 30ch;
+}
+
+
+.page-six {
+   margin-inline: 10%;
+}
+
+/* change margin here */
+.six-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.six-header h1{
+   font-size: 3rem;
+   font-family: arial;
+   font-weight: 100;
+   letter-spacing: 0.4em;
+}
+
+
+.small-line {
+   width: 15rem;
+   height: 1px;
+   background-color: rgb(69, 69, 69);
+}
+
+hr {
+   width: 15rem;
+   height: 1px;
+   border: none;
+   background-color: rgb(69, 69, 69);
+}
+
+.six-main {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.six-box {
+   aspect-ratio: 1/1;
+   height: 15rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: black solid 1px;
+}
+
+.six-text {
+   width: 15rem;
+   justify-content: center;
+   align-items: center;
+}
+
+/* sixth page */
+
+.page-six{
+  height: 100vh;
+  width: 100%;
+}
