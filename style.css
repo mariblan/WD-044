@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial;
-}
+/*   overflow-x: hidden;
+ */}
 
 /* body {
   position: absolute;
@@ -17,13 +18,13 @@ direction: column;
 
 .landingpage{
  height: 100vh;
- background-image: url(./Backgrounds/azin-javadzadeh-Ow4ijRO4ZJw-unsplash.jpg);
+ background-image: url(./images/1.jpg);
  background-position: center;
  background-size:cover;
  background-repeat: no-repeat;
  /* padding: 10%; */
- width: 100%;
-}
+/*  width: 100%;
+ */}
 
 
 /* header a img{
@@ -54,9 +55,11 @@ direction: column;
   letter-spacing: 1rem;
 }
 
+/* second page */
+
 .second{
   height: 100vh;
-  background-image: url(./Backgrounds/wheat.jpg);
+  background-image: url(./images/2.jpg);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,8 +198,8 @@ hr {
 
 .page-six{
   height: 100vh;
-  width: 100%;
-}
+/*   width: 100%;
+ */}
 
 /* 7 page */
 .seventh-page{
