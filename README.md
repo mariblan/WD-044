@@ -5,6 +5,7 @@ PRIMER
   
   Week 2
     - Git lecture -> https://github.com/mariblan/git-lecture
-    - [Flex live coding] (https://codesandbox.io/s/flex-live-k4wp6h?file=/index.html:422-551)
+    - Flex live coding -> https://codesandbox.io/s/flex-live-k4wp6h?file=/index.html:422-551
+    [click here](https://codesandbox.io/s/flex-live-k4wp6h?file=/index.html:422-551)
 
 BOOTCAMP
