@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -128,4 +127,16 @@ button {
     background-color: #2980b9; 
 }
 
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 30px;
+    
+}
 
+button{
+    font-size: larger;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: aquamarine;
+    align-items: center;
+    margin: 50px;
