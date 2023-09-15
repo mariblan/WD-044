@@ -3,18 +3,40 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial;
-/*   overflow-x: hidden;
- */}
+}
 
-/* body {
-  position: absolute;
-top: 0;
-left: 0;
-right: 0;
-width: 100%;
-display: flex;
-direction: column;
-} */
+header {
+  height: 70px;
+  width: 400px;
+  background-color: darkcyan;
+  position: fixed;
+  bottom: 2%;
+  left: 35%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 0.3;
+  z-index: 100;
+}
+header:hover{
+  opacity: 1;
+  transition: 0.6s ease;
+}
+header nav{
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav a img{
+  width: 50px;
+  transition: 0.4s ease;
+  
+}
+
+header nav a img:hover{
+  width: 70px;
+ 
+}
 main{
   height: 100vh;
   width: 100%;
@@ -50,10 +72,8 @@ main{
   font-size:5rem ;
   color: white;
   letter-spacing: 5rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-right: 0em;
+  text-align: center;
+/* 4 */
 }
 .landingpage h3{
   text-align: center;
