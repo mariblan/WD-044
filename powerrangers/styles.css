@@ -1,0 +1,10 @@
+.icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
+  margin-top: 5%;
+}
+
+.footer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
