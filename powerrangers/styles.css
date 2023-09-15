@@ -1,9 +1,15 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 30px;
+    background-color: #f0f0f0;
+}
 
 header {
     display: flex;
@@ -69,11 +75,6 @@ header {
     padding: 15px;
   }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
 .content {
     display: flex;
     justify-content: center;
@@ -120,19 +121,12 @@ button {
     background-color: #3498db; 
     color: #fff; 
     margin-top: 20px;
-   
 }
 
 .button:hover {
     background-color: #2980b9; 
 }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    margin: 30px;
-    
-}
 
 button{
     font-size: larger;
@@ -140,3 +134,49 @@ button{
     color: aquamarine;
     align-items: center;
     margin: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form .contact-heading {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+}
+
+.contact-form h2 {
+    font-size: 1.953rem;
+}
+
+.contact-form p {
+    max-width: 50%;
+}
+
+.contact-form fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 2%;
+    min-width: 400px;
+    max-width: 750px;
+}
+
+.contact-form fieldset input {
+    margin: 2%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.contact-form fieldset button {
+    margin: 2%;
+    padding: 2%;
+}
+
+.contact-form fieldset button:hover {
+ background-color: red;
+}
