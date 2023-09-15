@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 20px;
+}
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5rem;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+  z-index: 1;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  width: 5em;
+}
+
+nav ul li {
+  /* display: inline-block; */
+  margin: 0 20px;
+  padding: 10px;
+  width: 5em;
+}
+
+main {
+  position: relative;
+  top: 50px;
+  left: 0;
+  font-size: 1.5em;
+}
+
+#titleUnique {
+  margin: 40px;
+}
+
+.title2 {
+  margin: 20px;
+}
+
+h2 {
+  color: #008000;
+  margin: 10px;
+}
+h2 {
+  margin: 50px;
+}
+
+.section p {
+  color: rgb(0, 140, 255);
+  font-size: 25px;
+}
+p {
+  margin: 5px;
+  color: palevioletred;
+  font-size: 20px;
+}
+
+#home .section > p {
+  background-color: black;
+}
+
+#specialp {
+  color: yellow;
+}
+
+h4,
+h3 {
+  color: #ff0000;
+  margin: 10px;
+}
+
+form {
+  margin: 10px 20px 15px 25px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav ul li {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+}
