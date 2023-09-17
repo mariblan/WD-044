@@ -1,15 +1,16 @@
 # GP
 Project with Rines, Bernard, Maziar, Xheni and Bishal
-
+test
 
 ## Naming conventions for the html page
-
+test
 
 
 
 
 
 ## Property values for Style Sheet.
+test
 
 .mainpage(classes) {
     height: 100vh;

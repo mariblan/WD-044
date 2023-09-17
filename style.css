@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial;
+  
 }
 
 header {
@@ -128,6 +129,59 @@ main{
   text-align: center;
   margin-top: 10%;
   max-width: 15em;  
+}
+
+/* third page */
+
+.aboutus {
+  height: 100vh;
+  background-image: url(./images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.aboutus-container {
+  width: 50%;
+  position: relative;
+  left: 37%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1.title_about {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 1.6rem;
+}
+
+.aboutus-container > p {
+  padding-top: 3rem;
+}
+
+p.aboutus_paragraphs {
+  max-width: 250px;
+  font-size: 0.9rem;
+}
+.second_paragraph {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 5%;
+  left: 1%;
+  height: 29%;
+  max-width: 250px;
+}
+
+.second_paragraph > p {
+  text-align: justify;
+  max-width: 190px;
 }
 
 /* fifth Page */
@@ -448,3 +502,63 @@ hr {
   font-family: ar;
   font-weight: lighter;
 }
+
+/*lastpage*/
+.lastpage{
+  background-image: url(https://media.discordapp.net/attachments/1149254631814344705/1152256660295917618/32.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+
+  }
+  
+  .lastpage h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10%;
+  }
+  
+  .lastpage p {
+    font-size: 1em;
+    text-align: center;
+    color: #777;
+    margin-top: 9%;
+  }
+  
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 50%;
+    padding: 2% 5%;
+    margin-left: 22%;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(108, 179, 143);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 2% 5%;
+    margin-left: 38%;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1e422d;
+  }
+  
