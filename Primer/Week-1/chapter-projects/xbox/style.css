@@ -570,11 +570,11 @@ height: 0.3rem;
 .button2 {
     background-color: #0ed42c;
     color: #e4e7eb;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 40%;
+    margin-left: 45%;
   }
 
 .button2:hover {
