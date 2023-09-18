@@ -191,3 +191,15 @@ button {
 .footer {
   font-family: "Courier New", Courier, monospace;
 }
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.footer {
+  font-family: "Courier New", Courier, monospace;
+}
