@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  font-size: 1.3rem;
+  background-color: #E69697;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+.navLinks {
+  color: white;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navLinks li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.navLinks li a:hover {
+  background-color: #df4f51;
+  border-radius: 25px;
+}
