@@ -3,27 +3,58 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial;
+  
 }
 
-/* body {
-  position: absolute;
-top: 0;
-left: 0;
-right: 0;
-width: 100%;
-display: flex;
-direction: column;
-} */
+header {
+  height: 70px;
+  width: 400px;
+  background-color: darkcyan;
+  position: fixed;
+  bottom: 2%;
+  left: 40%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 0.3;
+  z-index: 100;
+}
+header:hover{
+  opacity: 1;
+  transition: 0.6s ease;
+}
+header nav{
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav a img{
+  width: 50px;
+  transition: 0.4s ease;
+  
+}
 
+header nav a img:hover{
+  width: 70px;
+ 
+}
+main{
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
 .landingpage{
  height: 100vh;
- background-image: url(./Backgrounds/azin-javadzadeh-Ow4ijRO4ZJw-unsplash.jpg);
+ background-image: url(./images/1.jpg);
  background-position: center;
  background-size:cover;
  background-repeat: no-repeat;
+ scroll-snap-align: start;
+
  /* padding: 10%; */
- width: 100%;
-}
+/*  width: 100%;
+ */}
 
 
 /* header a img{
@@ -42,10 +73,8 @@ direction: column;
   font-size:5rem ;
   color: white;
   letter-spacing: 5rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-right: 0em;
+  text-align: center;
+/* 4 */
 }
 .landingpage h3{
   text-align: center;
@@ -54,9 +83,11 @@ direction: column;
   letter-spacing: 1rem;
 }
 
+/* second page */
+
 .second{
   height: 100vh;
-  background-image: url(./Backgrounds/wheat.jpg);
+  background-image: url(./images/2.jpg);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,6 +96,7 @@ direction: column;
   align-items: flex-end;
   padding-bottom: 10%;
   font-size: 1em;
+  scroll-snap-align: start;
 }
 
 /* .secondpagecontent{
@@ -99,6 +131,61 @@ direction: column;
   max-width: 15em;  
 }
 
+/* third page */
+
+.aboutus {
+  height: 100vh;
+  background-image: url(./images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  scroll-snap-align: start;
+  padding-bottom: 10%;
+}
+
+.aboutus-container {
+  width: 50%;
+  position: relative;
+  left: 37%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1.title_about {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 1.6rem;
+}
+
+.aboutus-container > p {
+  padding-top: 3rem;
+}
+
+p.aboutus_paragraphs {
+  max-width: 250px;
+  font-size: 0.9rem;
+}
+.second_paragraph {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 5%;
+  left: 1%;
+  height: 29%;
+  max-width: 250px;
+}
+
+.second_paragraph > p {
+  text-align: justify;
+  max-width: 190px;
+}
+
 /* fifth Page */
 
 .page-five{
@@ -107,6 +194,7 @@ direction: column;
   background-size: cover;
   background-position: center;
   width: 100%;
+  scroll-snap-align: start;
 }
 
 /* .image-five {
@@ -195,8 +283,9 @@ hr {
 
 .page-six{
   height: 100vh;
-  width: 100%;
-}
+  scroll-snap-align: start;
+/*   width: 100%;
+ */}
 
 /* 7 page */
 .seventh-page{
@@ -204,6 +293,7 @@ hr {
   background-color: white;
   overflow: hidden;
   position: relative;
+  scroll-snap-align: start;
 }
 
 .bigtext{
@@ -337,6 +427,7 @@ hr {
 .eights-page{
   height: 100vh;
   background-color: rgb(255, 255, 255);
+  scroll-snap-align: start;
   }
 
 .bigtext2{
@@ -413,3 +504,63 @@ hr {
   font-family: ar;
   font-weight: lighter;
 }
+
+/*lastpage*/
+.lastpage{
+  background-image: url(https://media.discordapp.net/attachments/1149254631814344705/1152256660295917618/32.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+
+  }
+  
+  .lastpage h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10%;
+  }
+  
+  .lastpage p {
+    font-size: 1em;
+    text-align: center;
+    color: #777;
+    margin-top: 9%;
+  }
+  
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 50%;
+    padding: 2% 5%;
+    margin-left: 22%;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(108, 179, 143);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 2% 5%;
+    margin-left: 38%;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1e422d;
+  }
+  
