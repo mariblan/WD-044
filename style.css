@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial;
-  
 }
 
 header {
@@ -18,77 +17,75 @@ header {
   opacity: 0.3;
   z-index: 100;
 }
-header:hover{
+header:hover {
   opacity: 1;
   transition: 0.6s ease;
 }
-header nav{
+header nav {
   height: inherit;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-header nav a img{
+header nav a img {
   width: 50px;
   transition: 0.4s ease;
-  
 }
 
-header nav a img:hover{
+header nav a img:hover {
   width: 70px;
- 
 }
-main{
+main {
   height: 100vh;
   width: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-.landingpage{
- height: 100vh;
- background-image: url(./images/1.jpg);
- background-position: center;
- background-size:cover;
- background-repeat: no-repeat;
- scroll-snap-align: start;
+.landingpage {
+  height: 100vh;
+  background-image: url(./images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
 
- /* padding: 10%; */
-/*  width: 100%;
- */}
-
+  /* padding: 10%; */
+  /*  width: 100%;
+ */
+}
 
 /* header a img{
   width: 30%;
   margin-left: 35%;
 } */
-.landingpage hr{
+.landingpage hr {
   border: solid 5px white;
   border-radius: 5px;
   width: 20%;
   height: 1%;
 }
 
-.landingpage h1{
+.landingpage h1 {
   padding-top: 2.5rem;
-  font-size:5rem ;
+  font-size: 5rem;
   color: white;
   letter-spacing: 5rem;
   text-align: center;
-/* 4 */
+  /* 4 */
 }
-.landingpage h3{
+.landingpage h3 {
   text-align: center;
-  font-size:1em ;
+  font-size: 1em;
   color: white;
   letter-spacing: 1rem;
 }
 
 /* second page */
 
-.second{
+.second {
   height: 100vh;
   background-image: url(./images/2.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -118,17 +115,17 @@ main{
   border-right: solid 5px black;
   padding: 2%;
 }
-.second .child3{
+.second .child3 {
   border: none;
 }
-.icon{
+.icon {
   width: 15%;
   margin-bottom: 10%;
 }
-.second div p{
+.second div p {
   text-align: center;
   margin-top: 10%;
-  max-width: 15em;  
+  max-width: 15em;
 }
 
 /* third page */
@@ -141,14 +138,14 @@ main{
   background-size: cover;
   width: 100%;
   scroll-snap-align: start;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 }
 
 .aboutus-container {
-  width: 50%;
+  width: 60%;
   position: relative;
   left: 37%;
-  top: 30%;
+  top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -156,17 +153,27 @@ main{
 }
 
 h1.title_about {
-  text-align: center;
-  font-size: 3.5rem;
-  letter-spacing: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: end;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+}
+
+span {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 2rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .aboutus-container > p {
-  padding-top: 3rem;
+  padding-top: 2rem;
+  text-align: justify;
 }
 
-p.aboutus_paragraphs {
-  max-width: 250px;
+.aboutus_paragraphs {
+  font-family: "Open Sans", sans-serif;
+  max-width: 320px;
   font-size: 0.9rem;
 }
 .second_paragraph {
@@ -175,20 +182,23 @@ p.aboutus_paragraphs {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  top: 5%;
-  left: 1%;
-  height: 29%;
-  max-width: 250px;
+  right: 38%;
+  height: 0.0001%;
+}
+
+.second_paragraph > h2 {
+  padding-bottom: 1rem;
+  letter-spacing: 1rem;
 }
 
 .second_paragraph > p {
   text-align: justify;
-  max-width: 190px;
+  max-width: 250px;
 }
 
 /* fifth Page */
 
-.page-five{
+.page-five {
   height: 100vh;
   background-image: url(./Backgrounds/5.jpg);
   background-size: cover;
@@ -203,92 +213,89 @@ p.aboutus_paragraphs {
   height: 60vh;
 } */
 
-
 .column {
-   float: left;
-   width: 33.33%;
+  float: left;
+  width: 33.33%;
 }
 
-.page-five h1{
-   position: relative;
-   left: 70%;
-   bottom: 72%;
-   width: 5ch;
-   font: 4em sans-serif;
-   letter-spacing: 0.4em
+.page-five h1 {
+  position: relative;
+  left: 70%;
+  bottom: 72%;
+  width: 5ch;
+  font: 4em sans-serif;
+  letter-spacing: 0.4em;
 }
 
 .page-five p {
-   position: relative;
-   left: 70%;
-   bottom: 45%;
-   width: 30ch;
+  position: relative;
+  left: 70%;
+  bottom: 45%;
+  width: 30ch;
 }
 
-
 .page-six {
-   margin-inline: 10%;
+  margin-inline: 10%;
 }
 
 /* change margin here */
 .six-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.six-header h1{
-   font-size: 3rem;
-   font-family: arial;
-   font-weight: 100;
-   letter-spacing: 0.4em;
+.six-header h1 {
+  font-size: 3rem;
+  font-family: arial;
+  font-weight: 100;
+  letter-spacing: 0.4em;
 }
-
 
 .small-line {
-   width: 15rem;
-   height: 1px;
-   background-color: rgb(69, 69, 69);
+  width: 15rem;
+  height: 1px;
+  background-color: rgb(69, 69, 69);
 }
 
 hr {
-   width: 15rem;
-   height: 1px;
-   border: none;
-   background-color: rgb(69, 69, 69);
+  width: 15rem;
+  height: 1px;
+  border: none;
+  background-color: rgb(69, 69, 69);
 }
 
 .six-main {
-   display: flex;
-   justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .six-box {
-   aspect-ratio: 1/1;
-   height: 15rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border: black solid 1px;
+  aspect-ratio: 1/1;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black solid 1px;
 }
 
 .six-text {
-   width: 15rem;
-   justify-content: center;
-   align-items: center;
+  width: 15rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /* sixth page */
 
-.page-six{
+.page-six {
   height: 100vh;
   scroll-snap-align: start;
-/*   width: 100%;
- */}
+  /*   width: 100%;
+ */
+}
 
 /* 7 page */
-.seventh-page{
+.seventh-page {
   height: 100vh;
   background-color: white;
   overflow: hidden;
@@ -296,77 +303,63 @@ hr {
   scroll-snap-align: start;
 }
 
-.bigtext{
+.bigtext {
   position: absolute;
   top: 15%;
   left: 9%;
   font-size: 450%;
   letter-spacing: 2.5rem;
   font-weight: lighter;
-
-
 }
 
-.boxsmalltext1{
+.boxsmalltext1 {
   position: absolute;
   top: 35%;
   left: 9%;
   width: 15%;
   font-size: 85%;
   line-height: 140%;
-
-
-
 }
 
-.boxsmalltext2{
+.boxsmalltext2 {
   position: absolute;
   top: 53%;
   left: 9%;
   width: 15%;
   font-size: 85%;
   line-height: 140%;
-
-
 }
 
-.oooo{
+.oooo {
   position: absolute;
   width: 14.3%;
   top: 77.4%;
   left: 8%;
-
-
-
 }
 
-.percs{
+.percs {
   position: absolute;
   top: 77%;
   left: 23.7%;
   width: 30%;
   font-size: 75%;
   line-height: 250%;
-  float: left
+  float: left;
 }
 
-.boxsmalltext3{
+.boxsmalltext3 {
   position: absolute;
   top: 80%;
   left: 34%;
   width: 20%;
   font-size: 85%;
-
-
 }
 
-.baum{
+.baum {
   position: relative;
-  right:0;
+  right: 0;
   bottom: 0;
-  left:56%;
-
-  
+  left: 56%;
 }
 
 .line1 {
@@ -417,20 +410,17 @@ hr {
   transform: rotate(11.4deg);
   background-color: #000;
   overflow: hidden;
-  
-  
-
 }
 
 /* 8 page */
 
-.eights-page{
+.eights-page {
   height: 100vh;
   background-color: rgb(255, 255, 255);
   scroll-snap-align: start;
-  }
+}
 
-.bigtext2{
+.bigtext2 {
   position: relative;
   top: 16%;
   font-size: 400%;
@@ -445,11 +435,11 @@ hr {
   width: 17%;
   left: 10%;
   background-color: #000;
-  }
+}
 
 .line12 {
   position: relative;
-  width: 19%;        
+  width: 19%;
   top: 10%;
   bottom: 0;
   left: 70%;
@@ -486,15 +476,14 @@ hr {
   border: 1px solid black;
 }
 
-.LOREMS555{
+.LOREMS555 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 220%;
   font-weight: lighter;
-  
 }
 
 .square-button {
-  width: 90%; 
+  width: 90%;
   height: 4rem;
   font-size: 0.85rem;
   font-weight: lighter;
@@ -506,61 +495,58 @@ hr {
 }
 
 /*lastpage*/
-.lastpage{
+.lastpage {
   background-image: url(https://media.discordapp.net/attachments/1149254631814344705/1152256660295917618/32.jpg);
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
   scroll-snap-align: start;
+}
 
-  }
-  
-  .lastpage h1 {
-    text-align: center;
-    font-size: 3em;
-    margin-top: 10%;
-  }
-  
-  .lastpage p {
-    font-size: 1em;
-    text-align: center;
-    color: #777;
-    margin-top: 9%;
-  }
-  
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 2%;
-  }
-  
-  input[type="text"],
-  input[type="email"] {
-    width: 50%;
-    padding: 2% 5%;
-    margin-left: 22%;
-    margin-bottom: 4%;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    text-align: center;
-  }
-  
-  input[type="submit"] {
-    background-color: rgb(108, 179, 143);
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 2% 5%;
-    margin-left: 38%;
-    font-size: 2vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #1e422d;
-  }
-  
+.lastpage h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 10%;
+}
+
+.lastpage p {
+  font-size: 1em;
+  text-align: center;
+  color: #777;
+  margin-top: 9%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 50%;
+  padding: 2% 5%;
+  margin-left: 22%;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: rgb(108, 179, 143);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 2% 5%;
+  margin-left: 38%;
+  font-size: 2vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e422d;
+}
