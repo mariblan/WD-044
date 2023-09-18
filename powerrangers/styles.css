@@ -182,11 +182,12 @@ button {
 
 .icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 10%;
   margin-top: 5%;
+  cursor: pointer;
 }
 
 .footer {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Courier New", Courier, monospace;
 }
