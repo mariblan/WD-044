@@ -3,55 +3,93 @@
   padding: 0;
   box-sizing: border-box;
 }
-  /*all styling which is consistent among all buttons is collected here  */
-  button {
-    text-transform: uppercase;
-    border-radius: 20px;
-    border: none;
-    font-size: 1.563rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0.4em 1em;
-    color: white;
+  
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  font-size: 1.3rem;
+  background-color: #E69697;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+.navLinks {
+  color: white;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navLinks li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.navLinks li a:hover {
+  background-color: #df4f51;
+  border-radius: 25px;
+}
+/*all styling which is consistent among all buttons is collected here  */
+button {
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.563rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.4em 1em;
+  color: white;
 }
 
 button:hover {
-  cursor: pointer;
-  }
+cursor: pointer;
+}
 
-  /* all general fontsize and font- family information is here */
+/* all general fontsize and font- family information is here */
 .mainsize {
-    font-size: 1.5rem;  
-    margin: 10px;
+  font-size: 1.5rem;  
+  margin: 10px;
 }
 
 .bold {
-    font-weight: 900;
+  font-weight: 900;
 }
 h2  {
-  text-align: left; 
-  font-size: 56px;
-  margin: 10px 0;
-  font-weight: 600;
+text-align: left; 
+font-size: 56px;
+margin: 10px 0;
+font-weight: 600;
 }
 
 /* font-colors */
-  .turquois {
-    color: #7abbb9;
+.turquois {
+  color: #7abbb9;
 }
- .white {
-    color: white;
- }
+.white {
+  color: white;
+}
 
 h1, h2, h3, h4, p, a, li {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* first section with hero image and order button  */
 .top{
-  background-image: url("./Place_Your_Image_Her.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-  width: 100%;
+background-image: url("./Place_Your_Image_Her.png");
+background-size:cover;
+background-repeat:no-repeat;
+width: 100%;
 }
 
 .topflex{
@@ -63,14 +101,14 @@ min-width: 350px;
 }
 
 .top h1 {
-  font-size: 3.052rem;
-  margin-bottom: 2rem;
-  color: white;
-  
+font-size: 3.052rem;
+margin-bottom: 2rem;
+color: white;
+
 }
 
 .top p{
-  color: white;
+color: white;
 
 }
 
