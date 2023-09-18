@@ -3,3 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* flexbox layout for the whole section */
+
+.statistics {
+  width: 100vw;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./resources/CompositeLayer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15%;
+}
+
+.statistics  >p {
+  margin: 1rem;
+  min-width: 60%;
+  max-width: 70%;
+  text-align: center;
+}
+
+/* Flexbox layout for the three circles, so that they are a row */
+.circle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* flexbox around the individual numbers for styling inside */
+
+.numbers { 
+  border: solid 2.5px #E4908E;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 50%;
+  font-size: 3.052rem;
+  height: 6em;
+  width: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  margin: 1rem;
+  text-align: center;
+} 
+
