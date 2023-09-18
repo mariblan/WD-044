@@ -140,6 +140,8 @@ main{
   background-position: center;
   background-size: cover;
   width: 100%;
+  scroll-snap-align: start;
+  padding-bottom: 10%;
 }
 
 .aboutus-container {
