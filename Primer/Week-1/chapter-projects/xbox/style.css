@@ -51,21 +51,6 @@ main{
  background-size:cover;
  background-repeat: no-repeat;
  scroll-snap-align: start;
-
- /* padding: 10%; */
-/*  width: 100%;
- */}
-
-
-/* header a img{
-  width: 30%;
-  margin-left: 35%;
-} */
-.landingpage hr{
-  border: solid 5px white;
-  border-radius: 5px;
-  width: 20%;
-  height: 1%;
 }
 
 .landingpage h1{
@@ -73,21 +58,23 @@ main{
   font-size:5rem ;
   color: white;
   letter-spacing: 5rem;
+  line-height: 4.5rem;
   text-align: center;
-/* 4 */
+  mix-blend-mode:exclusion;
 }
 .landingpage h3{
-  text-align: center;
+  text-align: right;
   font-size:1em ;
   color: white;
   letter-spacing: 1rem;
+  mix-blend-mode:difference;
 }
 
 /* second page */
 
 .second{
   height: 100vh;
-  background-image: url(./images/2.jpg);
+  background-image: url(./images/2.2.jpg);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,19 +85,12 @@ main{
   font-size: 1em;
   scroll-snap-align: start;
 }
-
-/* .secondpagecontent{
-  height: 50%;
-  width: 70%;
-  position: relative;
-  bottom: 1%;
-  right: 5%;
-  left: 5%;
-  top: 20%;
-  display: flex;
-  border: solid 2px red; 
-} */
-
+.second h2{
+  font-size: 3rem;
+  padding-bottom: 30%;
+  padding-left: 10%;
+  letter-spacing: 1rem;
+}
 .second > div {
   display: flex;
   flex-direction: column;
