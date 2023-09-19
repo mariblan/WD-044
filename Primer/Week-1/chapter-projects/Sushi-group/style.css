@@ -1,3 +1,281 @@
 * {
+<<<<<<< HEAD
     margin:0;
 }
+=======
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  font-size: 1.3rem;
+  background-color: #e69697;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navLinks {
+  color: white;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.navLinks li a:hover {
+  background-color: #df4f51;
+  border-radius: 25px;
+}
+/*all styling which is consistent among all buttons is collected here  */
+button {
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.563rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.4em 1em;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* all general fontsize and font- family information is here */
+.mainsize {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.bold {
+  font-weight: 900;
+}
+h2 {
+  text-align: left;
+  font-size: 56px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+/* font-colors */
+.turquois {
+  color: #7abbb9;
+}
+.white {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* first section with hero image and order button  */
+.top {
+  background-image: url("./Place_Your_Image_Her.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.topflex {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 2rem;
+  width: 55%;
+  min-width: 350px;
+}
+
+.top h1 {
+  font-size: 3.052rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.top p {
+  color: white;
+}
+
+.top button {
+  background-color: #7abbb9;
+  width: 30%;
+  margin: 10px;
+}
+
+.oriental {
+  background-image: url(./resources/9872929c-8a00-4a2f-88f0-60d027861897.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articleOriental {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  max-width: 100rem;
+}
+
+.articleOriental img {
+  border-radius: 50%;
+  margin: 5rem;
+  width: 50%;
+}
+
+.articleOriental h2,
+.statistics h2 {
+  color: #7abbb9;
+  text-align: left;
+  font-size: 56px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.articleOriental p,
+.statistics p {
+  font-size: 24px;
+  color: #7abbb9;
+  text-align: left;
+  font-weight: 50;
+  max-width: 500px;
+  min-width: 100px;
+  margin-bottom: 5%;
+}
+
+.articleOriental button {
+  padding: 10px 50px;
+  background-color: #e78e92;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-start;
+  font-size: 25px;
+  display: flex;
+}
+
+.special-menu1 {
+  background-image: url("./resources/266e6de5-711b-46b3-9b6f-280d27902f00.png");
+  display: flex;
+  padding: 40px;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 4%;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  max-width: 25%;
+  min-width: 200px;
+  margin: 1rem;
+}
+
+.special-menu1 h2 {
+  color: white;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.special-menu1 h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: white;
+}
+
+.special-menu1 p {
+  font-size: 1rem;
+  color: white;
+}
+
+img {
+  width: 10rem;
+  border: 1px black;
+  border-radius: 50%;
+  height: 10rem;
+}
+
+/* flexbox layout for the whole section */
+
+.statistics {
+  width: 100vw;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./resources/CompositeLayer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15%;
+}
+
+.statistics  >p {
+  margin: 1rem;
+  min-width: 60%;
+  max-width: 70%;
+  text-align: center;
+}
+
+/* Flexbox layout for the three circles, so that they are a row */
+.circle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* flexbox around the individual numbers for styling inside */
+
+.numbers { 
+  border: solid 2.5px #E4908E;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 50%;
+  font-size: 3.052rem;
+  height: 6em;
+  width: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  margin: 1rem;
+  text-align: center;
+} 
+
+>>>>>>> feature/sushi
