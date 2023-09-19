@@ -635,11 +635,11 @@ height: 0.3rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 3%;
-    background-color: rgba(138, 190, 170, 0.9)
+    background-color: rgba(197, 219, 208, 0.9)
   }
   
   input[type="submit"] {
-    background-color: rgba(138, 190, 170, 0.9);
+    background-color: rgba(113, 167, 147, 0.9);
     color: #fff;
     border: none;
     border-radius: 8px;
